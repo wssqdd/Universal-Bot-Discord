@@ -83,6 +83,7 @@ async def on_ready():
     status = status_map.get(config.get("status", "online").lower(), discord.Status.online)
 
     await bot.change_presence(status=status, activity=activity_obj)
+    print(f"Connecté en tant que {bot.user}, dévlopper par 1901 (wssqdd)")
 
 @bot.command()
 async def nuke(ctx):
