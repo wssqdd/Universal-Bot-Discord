@@ -1,6 +1,3 @@
-Parfait, je te prépare une version du README adaptée pour un bot Discord écrit en **Python** (avec la bibliothèque `discord.py` par exemple), en conservant ta structure et ton style. Voici la version complète à copier/coller :
-
-````markdown
 # Bot Discord Universel (Python)
 
 Bienvenue dans le **Bot Discord Universel** !  
