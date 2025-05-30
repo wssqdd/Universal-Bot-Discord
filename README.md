@@ -39,32 +39,15 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-4. **Créer un fichier `.env`** avec les variables suivantes :
+4. **Configurer le bot**
 
-```env
-DISCORD_TOKEN=ton_token_de_bot_ici
-PREFIX=!
-```
+Remplir dans `config.json` les informations tel que le token, le status du bot et autres
 
 5. **Lancer le bot**
 
 ```bash
-python bot.py
+python main.py
 ```
-
----
-
-## Utilisation
-
-### Commandes basiques
-
-| Commande                 | Description                                    |
-| ------------------------ | ---------------------------------------------- |
-| `!ping`                  | Teste la latence du bot                        |
-| `!avatar [@utilisateur]` | Affiche l’avatar d’un utilisateur              |
-| `!kick @utilisateur`     | Expulse un utilisateur du serveur (modération) |
-| `!ban @utilisateur`      | Bannit un utilisateur (modération)             |
-| `!mute @utilisateur`     | Rend un utilisateur muet (modération)          |
 
 ---
 
@@ -78,12 +61,12 @@ python bot.py
 
 Les contributions sont les bienvenues !
 N’hésitez pas à ouvrir une issue ou une pull request.
-
+---
 
 ## Licence
 
 MIT License © 1901
-
+---
 
 ## Contact
 
