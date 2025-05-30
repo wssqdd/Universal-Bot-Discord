@@ -11,9 +11,8 @@ Ce bot est conçu pour être simple, polyvalent et facilement personnalisable af
 - Commandes de modération (kick, ban, mute)  
 - Commandes fun (ping, avatar, lancer de dés)  
 - Système de logs  
-- Réponses automatisées  
-- Support multi-langues (optionnel)  
-- Configuration facile via fichier `.env`
+- Différent module de modération (antibot, antiinvit)
+- Configuration facile via fichier `config.json`
 
 ---
 
