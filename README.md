@@ -1,73 +1,88 @@
-# Bot Discord Universel (Python)
+# Bot Discord - Commandes Utiles et Modération
 
-Bienvenue dans le **Bot Discord Universel** !  
-Ce bot est conçu pour être simple, polyvalent et facilement personnalisable afin de répondre à la plupart des besoins d’un serveur Discord, écrit en Python avec `discord.py`.
+Ce bot Discord propose un ensemble de commandes pratiques pour la gestion de serveur, la modération, et la récupération d'informations utiles sur les utilisateurs ou le serveur.
 
 ---
 
-## Fonctionnalités principales
+## Commandes disponibles
 
-- Gestion des commandes simples et modulables  
-- Commandes de modération (kick, ban, mute)  
-- Commandes fun (ping, avatar, lancer de dés)  
-- Système de logs  
-- Différent module de modération (antibot, antiinvit)
-- Configuration facile via fichier `config.json`
+### Informations
+
+| Commande | Description |
+|---------|-------------|
+| `!member` | Affiche le nombre de membres du serveur. |
+| `!serveurinfo` | Affiche les informations du serveur. |
+| `!userinfo [membre]` | Affiche les informations sur un membre. |
+| `!stat` | Affiche les statistiques du serveur. |
+| `!vc` | Affiche le nombre de membres actuellement en vocal. |
+| `!ping` | Affiche la latence (ping) du bot. |
+| `!alladmin` | Affiche la liste des administrateurs du serveur. |
+
+### Modération
+
+| Commande | Description |
+|---------|-------------|
+| `!clear [nombre]` | Supprime un nombre défini de messages dans un salon. |
+| `!nuke` | Réinitialise un salon (supprime et recrée). |
+| `!lock` | Verrouille un salon pour les membres. |
+| `!unlock` | Déverrouille un salon pour les membres. |
+| `!add_role [rôle] [utilisateur]` | Attribue un rôle à un membre. |
+| `!remove_role [rôle] [utilisateur]` | Retire un rôle à un membre. |
+| `!setup_logs` | Configure le système de logs du serveur. |
+
+### Divers / Utilitaires
+
+| Commande | Description |
+|---------|-------------|
+| `!snipe` | Affiche le dernier message supprimé. |
+| `!sondage [question]` | Lance un sondage avec des réactions. |
+| `!say [message]` | Le bot répète le message donné. |
+| `!prefix [nouveau préfixe]` | Change le préfixe du bot. |
+| `!help` | Affiche la liste des commandes. |
+
+> Le préfixe utilisé peut être personnalisé dynamiquement via `config.json`.
+
+---
+
+## Exemple de config.json
+
+```json
+{
+  "prefix": "!",
+  "color_embed": 3447003
+}
+````
 
 ---
 
 ## Installation
 
-1. **Cloner le dépôt**  
-```bash
-git clone https://github.com/tonutilisateur/discord-bot-universel.git
-cd discord-bot-universel
-````
+1. Clonez ce dépôt :
 
-2. **Créer un environnement virtuel (optionnel mais recommandé)**
+   ```bash
+   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   ```
 
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux / Mac
-venv\Scripts\activate     # Windows
-```
+2. Installez les dépendances :
 
-3. **Installer les dépendances**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-pip install -r requirements.txt
-```
+3. Lancez le bot :
 
-4. **Configurer le bot**
-
-Remplir dans `config.json` les informations tel que le token, le status du bot et autres
-
-5. **Lancer le bot**
-
-```bash
-python main.py
-```
+   ```bash
+   python bot.py
+   ```
 
 ---
 
-## Personnalisation
+## Auteurs
 
-* Modifie le préfixe de commande dans le fichier `config.json`
-* Ajoute ou modifie les commandes dans le fichier `main.py` 
----
+* Développé par 1901 (wssqdd)
 
-## Contribution
-
-Les contributions sont les bienvenues !
-N’hésitez pas à ouvrir une issue ou une pull request.
 ---
 
 ## Licence
 
-MIT License © 1901
----
-
-## Contact
-
-Pour toute question, contacte-moi sur Discord : `wssqdd (1901)`
-
+Ce projet est sous licence MIT. Libre à vous de l'utiliser et de le modifier.
