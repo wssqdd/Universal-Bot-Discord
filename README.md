@@ -70,10 +70,8 @@ python bot.py
 
 ## Personnalisation
 
-* Modifie le préfixe de commande dans le fichier `.env`
-* Ajoute ou modifie les commandes dans le dossier `commands/` (ou directement dans `bot.py`)
-* Configure les permissions dans le code pour restreindre certaines commandes aux rôles spécifiques
-
+* Modifie le préfixe de commande dans le fichier `config.json`
+* Ajoute ou modifie les commandes dans le fichier `main.py` 
 ---
 
 ## Contribution
@@ -81,13 +79,11 @@ python bot.py
 Les contributions sont les bienvenues !
 N’hésitez pas à ouvrir une issue ou une pull request.
 
----
 
 ## Licence
 
-MIT License © TonNom
+MIT License © 1901
 
----
 
 ## Contact
 
