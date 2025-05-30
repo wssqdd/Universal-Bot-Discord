@@ -1,1 +1,12 @@
-
+discord.py==2.6.0
+requests==2.31.0
+aiohttp==3.8.5
+logging
+re
+asyncio
+collections
+datetime
+random
+json
+os
+time
