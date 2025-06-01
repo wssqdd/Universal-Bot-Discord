@@ -48,8 +48,16 @@ Ce bot Discord propose un ensemble de commandes pratiques pour la gestion de ser
 
 ```json
 {
-  "prefix": "!",
-  "color_embed": 3447003
+    "token": " ", #Ton Token de Bot
+    "prefix": ".",
+    "color_embed": 16777215,
+    "status": "idle", #idle, dnd, invisible 
+    "activity": ".help pour des commandes",
+    "activity_type": "streaming", #playing, listening, watching
+    "antispam": false,
+    "antilien": false,
+    "antibot": false,
+    "antiinvitation": false
 }
 ````
 
